@@ -8,7 +8,7 @@ import os
 
 # App title
 
-st.set_page_config(page_title="llama2 ")
+st.set_page_config(page_title="Code llama ")
 
  
 
@@ -16,7 +16,7 @@ st.set_page_config(page_title="llama2 ")
 
 with st.sidebar:
 
-    st.title('llama2')
+    st.title('Code llama')
 
     if 'REPLICATE_API_TOKEN' in st.secrets:
 
